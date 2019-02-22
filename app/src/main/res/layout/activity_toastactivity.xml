@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:foreground="#5000"
+            android:scaleType="fitXY"
+            android:src="@mipmap/veg"
+            android:id="@+id/vegimg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="Veg"
+
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/vegtxt"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:fontFamily="serif-monospace"
+/>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:foreground="#5000"
+            android:scaleType="fitXY"
+            android:layout_below="@id/vegimg"
+            android:src="@mipmap/nonveg"
+            android:id="@+id/nonvegimg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="Non-Veg"
+            android:layout_below="@id/vegimg"
+
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/text"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:fontFamily="serif-monospace"
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:foreground="#5000"
+            android:scaleType="fitXY"
+            android:layout_below="@id/nonvegimg"
+          android:src="@mipmap/burgers"
+            android:id="@+id/burgerimg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="Burgers"
+            android:layout_below="@id/nonvegimg"
+
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/burgertxt"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:fontFamily="serif-monospace"
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:foreground="#5000"
+            android:scaleType="fitXY"
+            android:layout_below="@id/burgerimg"
+            android:src="@mipmap/dessert"
+            android:id="@+id/dessertimg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:text="Desserts"
+            android:layout_below="@id/burgerimg"
+
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/desserttxt"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:fontFamily="serif-monospace"
+            />
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
